@@ -8,7 +8,6 @@ local opts = { noremap = true, silent = true }
 -- Basic keymaps
 map("n", "<leader>w", ":w<CR>", opts)          -- Save file
 map("n", "<leader>q", ":q<CR>", opts)          -- Quit
-map("n", "<leader>bd", ":close<CR>", opts)     -- Close window
 map("n", "<Esc>", "<cmd>nohlsearch<CR>", opts) -- Clear search highlight
 
 -- Window navigation
